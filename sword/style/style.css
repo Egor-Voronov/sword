@@ -1,0 +1,198 @@
+@import url(http://db.onlinewebfonts.com/c/022c1f9c43c0c5f997a34d25ed4d5e16?family=GWENT);
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-size: 100%;
+    font-weight: normal;
+    overflow-x: hidden; 
+    /* overflow-y: hidden; */
+}
+
+.back {
+    height: 100vh;
+    width: 100vw;
+    background-size: cover
+}
+
+.p1 {
+    font-family: "GWENT";
+    font-size: 8vh;
+    color: white;
+    position: relative;
+    top: -95vh;
+    left: 67vh;
+}
+
+.card {
+    width: 35vh;
+    height: 50vh;
+    background-color: #EDD6A5;
+    border-radius: 3vh;
+    border: .5vh solid #CCA665;
+    cursor: pointer;
+    display: flex;
+}
+
+.cardMain {
+    position: relative;
+    top: -90vh;
+    left: 79.5vh;
+}
+
+.sword {
+    position: relative;
+    top: 13vh;
+    left: 7vh;
+    width: 20vh;
+    height: 20vh;
+}
+
+section {
+    position: relative;
+    width: 80vh;
+    height: 20vh;
+    background-color: #EDD6A5;
+    border: .5vh solid #CCA665;
+    border-radius: 3vh;
+    top: -83.5vh;
+    left: 56.5vh;
+    padding: 3.5vh 2vh 1vh 20vh;
+}
+
+.card-txt {
+    font-family: Arial, sans-serif;
+    font-size: 2.5vh;
+    font-weight: 600;
+    line-height: 3vh;
+    color: #1C3653;
+}
+
+.mouse {
+    position: absolute;
+    width: 3vh;
+    height: 5vh;
+    top: 84vh;
+    left: 109.8vh;
+    cursor: pointer;
+}
+
+.cards-img {
+    position: absolute;
+    top: 77.5vh;
+    left: 58.8vh;
+    width: 13vh;
+    height: 12vh;
+}
+
+#popup1 {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: #1c3653fd;
+    z-index: 2;
+   opacity: 0;
+    visibility: hidden;
+}
+
+#popup1:target {
+    opacity: 1;
+    visibility: visible;
+    
+}
+
+.stroke {
+    position: absolute;
+    border: .4vh solid white;
+    width: 70vh;
+    left: 61vh;
+    top: 30vh;
+    height: 50vh;
+    padding: 0vh;
+}
+
+.menu {
+    display: block;
+    font-family: "GWENT";
+    font-size: 5vh;
+    background-color: #EDD6A5;
+    color: #1C3653;
+    width: 30vh;
+    height: 10vh;
+    cursor: pointer;
+    border: .5vh solid #CCA665;
+    border-radius: 2vh;
+    position: relative;
+    top: 5vh;
+}
+
+.padding {
+    position: relative;
+    padding-bottom: 5vh;
+    left: 20vh;
+}
+
+.btn {
+    text-decoration: none;
+    color: #1C3653;
+}
+
+[class="fa-solid fa-xmark"] {
+    color: white;
+    font-size: 5vh;
+    position: relative;
+    left: 125vh;
+    top: 31vh;
+}
+
+[class="fa-solid fa-gear"] {
+    position: absolute;
+    color: white;
+    font-size: 6vh;
+    left: 187vh;
+    top: 1vh;
+    display: inline-block;
+
+}
+
+#loot {
+    visibility: hidden;
+    opacity: 0;
+}
+
+#loot:target {
+    visibility: visible;
+    opacity: 1;
+    
+}
+
+
+.popcard1 {
+    top: 18vh;
+    position: absolute;
+    z-index: 1;
+}
+
+.popcard2 {
+    top: 18vh;
+    left: 35vh;
+    position: absolute;
+    z-index: 1;
+}
+
+.popcard3 {
+    top: 17.9vh;
+    left: 124vh;
+    position: absolute;
+    z-index: 1;
+}
+
+.card1 {
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+ 
